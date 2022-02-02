@@ -1,0 +1,53 @@
+@media screen and (max-width: 1920px) {
+    .adviser .owl-dots {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .adviser .owl-nav {
+        justify-content: center;
+        position: initial;
+    }
+    .adviser .owl-carousel .owl-nav .owl-next {
+        position: inherit;
+        margin-left: 84px;
+    }
+    .adviser .owl-carousel .owl-nav .owl-prev {
+        position: inherit;
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    header .contact_btn {
+        max-width: 180px;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .people_help .how_box {
+        text-align: center;
+    }
+    .people_help .ser_box {
+        justify-content: center;
+    }
+    .adviser .owl-dots {
+        display: flex !important;
+    }
+    .revi_box .owl-dots {
+        justify-content: center;
+    }
+    .review .revi_box h5 {
+        text-align: center;
+    }
+    .adviser .owl-nav {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    p {
+        font-size: 14px;
+    }
+}
