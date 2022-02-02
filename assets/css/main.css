@@ -494,16 +494,17 @@ header .navbar-light .navbar-toggler-icon:nth-child(2) {
 
 .news_box {
     background-color: #002068;
-    background-image: url(../images/subcribe.svg);
+    background-image: url(../images/subscribe.svg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 80px;
     padding-bottom: 80px;
     border-radius: 15px;
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
     color: #fff;
     align-items: center;
-    padding: 20px;
     text-align: center;
     justify-content: center;
 }

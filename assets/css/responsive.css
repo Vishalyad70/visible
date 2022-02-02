@@ -46,8 +46,30 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .news_box {
+        background-image: none;
+    }
+}
+
 @media screen and (max-width: 575px) {
     p {
         font-size: 14px;
+    }
+    header .navbar-brand {
+        max-width: 185px;
+    }
+    .news_box .service_box .emai_box input {
+        margin-bottom: 20px;
+    }
+    .news_box .service_box .emai_box {
+        position: initial;
+    }
+    .news_box .service_box .emai_box .contact_btn {
+        position: initial;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        transform: none;
     }
 }
